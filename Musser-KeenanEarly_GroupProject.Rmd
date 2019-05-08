@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Phylogenetics 101
 
-To start things out lets go over some phylogenetic basics for those who are unfamiliar. We want to actually get to the coding part of this presentation, and fully understanding a plylogenetic tree and how they work is the subject of an entire class (or course), so we are presenting only a very stripped down version that will hopefully give you a core basic understanding of what it is we are doing with this code. If you have questions, please ask them, because this is definitely leaving details out! 
+To start things out let's go over some phylogenetic basics for those who are unfamiliar. We want to actually get to the coding part of this presentation, and fully understanding a plylogenetic tree and how they work is the subject of an entire class (or course), so we are presenting only a very stripped down version that will hopefully give you a core basic understanding of what it is we are doing with this code. If you have questions, please ask them, because this is definitely leaving details out! 
 
 Phylogenetics is a system used to map relationships between organisms based upon shared ancestry in which relatedness is considered on the basis of recency of common ancestry. These relationships are visualized using phylogenetic trees, the most common two styles of which are below: 
 
@@ -31,7 +31,7 @@ Phylogenetics is a system used to map relationships between organisms based upon
 
 These two trees show identical information, even though they look very different. 
 
-Let's quickly go over the anatomy of a trees so you can better understand some of the terms we will be using and what exactly it is we are trying to do. 
+Let's quickly go over the anatomy of trees so you can better understand some of the terms we will be using and what exactly it is we are trying to do. 
 
 
 <img src="C:/Users/keena/Documents/R/Projects/Group_Project/images/AnatomyofCaldogram.jpg" width="900px"/>
@@ -40,12 +40,12 @@ The relationships between taxa are determined by analzing characters that are sh
 
 <img src="C:/Users/keena/Documents/R/Projects/Group_Project/images/Characteristics.jpg" width="900px"/>
 
-So here we can look at this tree and understand some of these relationships a little bit better. For example, all of the taxa on this trees share characteristic 1, but only D, E, their common ancestor, and all of that ancestors descendants have characteristic 6. 
+So here we can look at this tree and understand some of these relationships a little bit better. For example, all of the taxa on this tree share characteristic 1, but only D, E, their common ancestor, and all of that ancestors descendants have characteristic 6. 
 
 
 ## So what then is Ancestral State Reconstruction? 
 
-As paleontologists frequently we are interested in understanding the characteristics of an extinct organism to better understand the evolutionary path taken to give us our modern biota, or the characteristics of a specific organism of interest. To do this it is often helpful to highlight characters of interest and determine when in the evolutionary history certain characters developed and manifesting within a given group of organisms. Essentially what this means is we measure known characteristics of target organisms, and use those to extrapolate the relationships between all organisms of intrest. Depending on how many organisms you are interested in (called your "in group"), this can get very complicated.
+As paleontologists we are interested in understanding the characteristics of an extinct organism to better understand the evolutionary path taken to give us our modern biota, or the characteristics of a specific organism of interest. To do this it is often helpful to highlight characters of interest and determine when in the evolutionary history certain characters developed and manifested within a given group of organisms. Essentially what this means is we measure known characteristics of target organisms, and use those to extrapolate the relationships between all organisms of intrest. Depending on how many organisms you are interested in (called your "in group"), this can get very complicated.
 
 <img src="C:/Users/keena/Documents/R/Projects/Group_Project/images/Cladogram2.jpg" width="900px"/>
 
